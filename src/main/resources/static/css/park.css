@@ -1,0 +1,9 @@
+#parkImg img {
+    max-width:500px;
+    flex:1;
+    height: 500px;
+    padding: 25px;
+    border: 20px;
+    border-color: #E74C3C;
+}
+

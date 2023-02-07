@@ -1,0 +1,26 @@
+
+div p{
+    width: 500px;
+    margin:auto;
+    /*margin-top: 50px;*/
+    font-size: 25pt;
+}
+#ok {
+    display: flex;
+    justify-content: center;
+}
+
+#ok button {
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: wheat;
+    border:0;
+    padding: 5px 10px;
+    width: 75px;
+
+}
+
+#ok a{
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+#food {
+    font-size: 20pt;
+    color: white;
+    background-color: #E74C3C;
+    width: 100%;
+    margin-left: 20px;
+    /*position: fixed;*/
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+#buttonBuy{
+    position: absolute;
+    right: 30px;
+    font-family: Geneva;
+    font-weight: bold;
+    background-color: #33ECFF;
+    border:0;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: 0;
+    padding: 5px 10px;
+}
+
+
+#Accesories{
+    background-color: #E74C3C;
+    width:100%;
+    right: 50px;
+    margin-top: 30px;
+    font-size: 20pt;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    overflow: auto;
+    color: white;
+        
+}
+
+h2{
+    color: white;
+    padding:20px;
+}
+
+#Accesories img, #food img{
+    max-width: 300px;
+    flex:1;
+}

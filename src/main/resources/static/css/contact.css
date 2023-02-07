@@ -1,0 +1,13 @@
+#contactInformation h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#channels img{
+    max-width:100px;
+    flex:1;
+    height: 75px;
+    padding: 80px;
+    
+}
+

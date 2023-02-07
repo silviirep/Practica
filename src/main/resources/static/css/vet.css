@@ -1,0 +1,17 @@
+#tableHeader{
+    font-size: 30px;
+    background-color: cadetblue;
+    color: #33ECFF;
+}
+
+#summaryTable, td{
+    font-size:  25px;
+    border: 2px solid white;
+}
+
+#tableVet{
+    text-align: center;
+    border: 2px solid white;
+    margin: 3px auto;
+    
+}

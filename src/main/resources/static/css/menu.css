@@ -1,0 +1,42 @@
+#container{
+    display: grid;
+    width: 85%;
+    max-width: 100%;
+    margin: auto;
+    height: 88%;
+    
+    
+}
+
+td {
+    padding: 65px;
+  }
+
+#container tr td div{
+    border:5px solid cadetblue;
+    border-radius: 50px;
+    /*overflow: hidden;*/
+    height: 250px;
+    position: relative;
+}
+
+img{
+    width:250px;
+    height: 250px;
+    border-radius: 44px;
+}
+
+p{
+    position:absolute;
+    bottom: -50px;
+    left: 0;
+    width:100%;
+    background-color: cadetblue;
+    color:black;
+    text-align: center;
+    padding:4px;
+    font-family: Geneva;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.4062em;
+}

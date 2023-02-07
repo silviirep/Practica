@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meditec</title>
+        <meta charset="utf-8">
+        <meta name="Grooming" content="Página de Meditec" />
+        <meta name="keywords" content="html5, css, web, fidelitas" />
+        <link href="css/grooming.css" rel="stylesheet" type="text/css"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <button id="buttonMenu"><a href="index.html">Menu</a></button>
+            <h1>Grooming</h1>
+        </header>
+        <div>
+            <form action="dateConfirmed.html">
+                <div>
+                    <label for="inputColor">Choose the color of the accesory of your pet : </label>
+                    <input id="inputColor" type="color" value="#ffde7c"/>
+                </div>
+                <div>
+                    <label>Type the name of your pet: </label>
+                    <input type="text" id="text" placeholder="Pipo" size="30"/>
+
+                </div>
+                <div>
+                    <label>Type if your pet has specifications for the grooming: </label>
+                    <textarea id="Description" rows="5" cols="30"></textarea>
+
+                </div>
+                <div>
+                    <label>Date of the grooming</label>
+                    <input type="date" name="date" min="2021-01-01" max="2023-12-31"/>
+                    
+                </div>
+                <div>
+                    <label>Time of the grooming</label>
+                    <input type="time" name="time" />
+
+                </div>
+                <div>
+                    <label>Your e-mail</label>
+                    <input type="email" name="email" placeholder="a-z@a-z.xxx" />
+
+                </div>
+                <div>
+                    <label>Your phone number</label>
+                    <input type="text" name="phone" placeholder="xxxx-xxxx">
+
+                </div>
+                <div id="tyc">
+                    
+                    <label><input type="checkbox" id="checkbox" checked />Terminos y condiciones</label>
+
+                </div>
+                <div>
+                    <input type="submit" value="confirmar" id="button" />
+
+                </div>
+            </form>
+
+        </div>
+        <footer id="foot">
+            Copyright &COPY;2023 - Silvia Peralta <address class="lineDirection">San Jose, Santa Ana</address><address class="lineDirection">Phone 72546348</address>
+        </footer>
+    </body>
+</html>

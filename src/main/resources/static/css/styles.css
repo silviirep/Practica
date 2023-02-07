@@ -1,0 +1,95 @@
+*{
+    box-sizing: content-box;
+    margin:0;
+    padding:0;   
+}
+
+body{
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #33ECFF;
+    display: flex;
+    flex-direction: column;
+}
+body>div{
+    flex: 1;
+    overflow-y: auto; 
+}
+
+h1{
+    line-height: 2cm;
+}
+
+p{
+    padding: 4mm;
+}
+
+a{
+    font-size: 12pt;
+}
+
+#foot{
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Geneva;  
+}
+
+.header{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-family: Geneva;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.4062em;
+    color:white;
+}
+
+.link-menu{
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+#buttonMenu{
+    position: absolute;
+    left: 30px;
+    font-family: Geneva;
+    font-weight: bold;
+    background-color: #33ECFF;
+    border:0;
+    
+}
+
+#buttonMenu a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 0;
+    padding: 5px 10px;
+}
+
+
+#buttonMenu a:visited{
+    color:#E74C3C;
+}
+
+a:visited{
+    color:#E74C3C;
+}
