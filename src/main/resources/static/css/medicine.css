@@ -1,0 +1,19 @@
+#tbodyTable td img{
+    
+    padding: 20px;
+    height: 200px;
+    
+}
+
+#generalTable{
+    /*padding: 25px;*/
+    text-align: center;
+    border: 2px solid white;
+    margin: 25px auto;
+    width: 80%;
+}
+
+#generalTable, td{
+    font-size:  25px;
+    border: 2px solid #E74C3C;
+}
