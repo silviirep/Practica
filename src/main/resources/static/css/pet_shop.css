@@ -1,14 +1,45 @@
+#shop {
+    width: 70vw;
+    min-width: 600px;
+    margin: auto;
+}
+
+#food, #Accesories {
+    width: 100vw;
+    border: 2px solid crimson;
+    overflow: hidden;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#food p, #Accesories p {
+    color: #E74C3C;
+}
+
+#food > div, #Accesories > div {
+    background: #fff;
+    padding: 10px;
+}
+
+#food img, #Accesories img {
+    width: 250px;
+    height: 250px;
+}
+
 #food {
     font-size: 20pt;
     color: white;
     background-color: #E74C3C;
-    width: 100%;
-    margin-left: 20px;
+    width: auto;
+    /* margin-left: 20px; */
     /*position: fixed;*/
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
+    /* margin-top: 30px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* overflow: auto; */
 }
 
 #buttonBuy{
@@ -28,24 +59,20 @@
 
 #Accesories{
     background-color: #E74C3C;
-    width:100%;
-    right: 50px;
-    margin-top: 30px;
+    width: auto;
+    /* right: 50px;
+    margin-top: 30px; */
     font-size: 20pt;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    overflow: auto;
+    /* display: flex;
+    justify-content: space-between; */
+    /* margin-left: 20px; */
+    /* overflow: auto; */
     color: white;
         
 }
 
 h2{
-    color: white;
+    color: rgb(11, 65, 243);
     padding:20px;
-}
-
-#Accesories img, #food img{
-    max-width: 300px;
-    flex:1;
+    font-size: 45px;
 }
